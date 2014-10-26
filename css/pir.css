@@ -1,0 +1,45 @@
+.circle {
+
+    position:absolute;
+
+    background-color:red;
+
+    width:200px;
+
+    height:200px;
+    -moz-border-radius:100px;
+
+    -webkit-border-radius:100px;
+
+    border-radius:100px;
+
+}
+
+
+.half-circle {
+    position:absolute;
+    background-color:red;
+    width:100px;
+    height:200px;
+    -moz-border-radius:100px 0 0 100px;
+    -webkit-border-radius:100px 0 0 100px;
+    border-radius:100px 0 0 100px;
+}
+
+.pie {
+	position:absolute;
+	width:200px;
+	height:200px;
+	clip:rect(0px,100px,200px,0px);
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius:100px;
+}
+
+.hold {
+	position:absolute;
+	width:200px;
+	height:200px;
+	clip:rect(0px,200px,200px,100px);
+}
+
