@@ -1,64 +1,208 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en">  
 <head>
-  <meta charset="utf-8">
-  <title>Bootstrap 3, from LayoutIt!</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-
-
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="img/favicon.png">
-  
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-</head>
-
-
-
-
+    <title>Varun Jain</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link id="theme-style" rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/github-calendar.css"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+</head> 
 <body>
-<div class="container">
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="photo.png" alt="" />
+                <h1 class="name">Varun Jain</h1>
+                <h3 class="tagline">Student Developer</h3>
+            </div><!--//profile-container-->
+            <div class="education-container container-block">
+                <div class="item">
+                    <h4 class="degree">B.Tech. Computer Science</h4>
+                    <h5 class="meta">IIIT Delhi</h5>
+                    <div class="time">2014 - 2018</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="https://app.box.com/s/xpg9deklpf1szd1dsmb1xfj6rvevv0z2" target="_blank">Resume</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/varunj" target="_blank">Github.com/varunj</a></li>
+                    <li class="facebook"><i class="fa fa-facebook"></i><a href="https://facebook.com/VJVarunJain" target="_blank">Facebook</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Biking</li>
+                    <li>Travelling</li>
+                    <li>Photography</li>
+                </ul>
+            </div><!--//interests-->
+        </div><!--//sidebar-wrapper-->
+        <div class="main-wrapper">
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+                <div class="summary">
+                    <p>Energetic, and enthusiastic emerging professional who is passionate about being the best software developer. I have been a scholar all through my education so far, and continue to make efforts to learn about computer programming through all available channels. Keen interests in – <b>Data Analytics, Big Data, IoT, Machine Learning</b>.
+                    Using technology to the fullest of it's capabilities to make something which can bring quality user experience is my primary aim.
+                    </p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Android Developer Intern</h3>
+                            <div class="time">June - July 2015</div>
+                        </div><!--//upper-row-->
+                        <div class="company">CSimplify IT, Gurgaon, Haryana, IN</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Worked as an Android Developer working on two projects. Extensive use of Java, Android and RESTful Services.</p>
+                        <p>
+                            A Language Translator App with OCR enabled text reading capabilites along with the use of
+                            Google Translate REST API.
+                        </p>
+                        <p>
+                            Another app was a mobile POS System for distributors placing wholesale orders. The application was for an existing business customer. 
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+            </section><!--//section-->
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <div class="item">
+                    <span class="project-title"><a href="#">OCR Translator</a></span> - <span class="project-tagline">Developed an Android application to integrate TESSERACT optical character recognition interface along with Google Translator RESTful services. The application was used to perform translation of real time image characters into a native language as required by the users.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="#" target="_blank">Mobile POS</a></span> - 
+                    <span class="project-tagline">A mobile based Point of Sale (Retail PoS) application for use by distributors placing wholesale orders to the supplier. Extensive use of JSON, and RESTful services architecture pattern to provide a dynamic, and easy to use interface for order management. The application was developed for an existing business customer and is in pilot launch stage.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="#" target="_blank">DigiSign</a></span> - <span class="project-tagline">Developed an application for Android based public information display panels, that can manage, control, and schedule media and content display on the panels. The app also allows to administer the panel content remotely, and allows all part of managing the device through a remote dashboard. Such intelligent android based panels are replacing the traditional LED based panels on airports, railway stations, and any other large public areas for advertisements and information display. This was done as part of team of 4 developers and I led the Android Module development, and three of my fellow team members developed the server side components in PHP over Linux. I used technology frameworks like – Google Cloud Messaging, Socket.IO for persistent network interface, RESTFul web services, and JSON for data exchange. The authentication was developed using ZXing QR Code library. This is ongoing, and the first alpha release has been done.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="#" target="_blank">CSI – DTU Chapter Android Application</a></span> - <span class="project-tagline">Developing an app for Computer Society of India, DTU Chapter to publish information and content about events and festivals being organized by the society within DTU.<br><a href="https://play.google.com/store/apps/details?id=com.dtu.csi.csi_dtu">CSI-DTU on the Google Play Store</a>
+                    </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="#" target="_blank">Innova Tech Fest Android Application</a></span> - <span class="project-tagline">Innova is annual technical festival organized by DTU students within the university. The purpose is to ease the information cascade about the fest to the students.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <p>
+                        I have also made a few small Android apps which are used by myself to increase convenience in day to day tasks on my Android device. 
+                    </p>
+                </div>
+            </section><!--//section-->
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills</h2>
+                <div class="skillset"> 
+                    <div class="item">
+                        <h3 class="level-title">Android</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="100%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">Python</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="75%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">Django</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="50%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">Linux</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="90%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">HTML &amp; CSS</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="75%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">PHP(Currently Learning)</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="75%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">C++</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="100%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">Java</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="100%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Javascript</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="75%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">MATLAB</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="50%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                </div>  
+            </section><!--//skills-section-->
+        </div><!--//main-body-->
+    </div>
+<!--
+    <div class="calendar">
+        Loading the data just for you.
+    </div>
+-->
+    <!-- Javascript -->          
+    <script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>    
+    <!-- custom js -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/min/github-calendar.min.js"></script>
+    <script>GitHubCalendar(".calendar", "asdzxc2");</script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-
-		    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		      <div class="container">
-		        <div class="navbar-header">
-		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		          </button>
-		          <a class="navbar-brand" href="#">AirZen</a>
-		        </div>
-		      </div>
-		    </div>
-
-
-<br><br><br><br>
-
-			<div >
-
-				<p align="center">
-					<img src="coverr.jpg">
-				</p>
-
-			</div>
-		</div>
-	</div>
-
-
-
-</div>
+  ga('create', 'UA-73917536-1', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
-</html>
+</html> 
+
+
+
+
+<!-- bower_components/jquery/jquery.min.js --> for slides
