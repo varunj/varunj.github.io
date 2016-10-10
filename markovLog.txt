@@ -91,3 +91,4 @@
 1475843328.82	-	names: car position,
 1475897438.02	-	therefore: it is angry at him in Bethany,
 1476079022.88	-	numbers: in the time of which there died stood by.
+1476079068.42	-	compound: procedures.
