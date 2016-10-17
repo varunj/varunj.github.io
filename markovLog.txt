@@ -99,3 +99,4 @@
 1476460818.66	-	adding: to refer to me unto you,
 1476547217.5	-	procedure: has shown in a constructor,
 1476633633.73	-	procedure: should be.
+1476720017.88	-	hardware-design: experience.
