@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#42A8C0">  
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">  
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
-    <link id="theme-style" rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/github-calendar.css"/>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="general_bower_components/bootstrap/dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="general_bower_components/font-awesome/css/font-awesome.css">
+    <link id="theme-style" rel="stylesheet" href="general_css/styles.css">
+    <link rel="stylesheet" href="general_css/github-calendar.css"/>
+    <link rel="shortcut icon" href="general_img/favicon.ico" />
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,9 +23,9 @@
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="profile" src="photo.png" alt="" />
+                <img class="profile" src="general_img/photo.png" alt="" />
                 <h1 class="name">Varun Jain</h1>
-                <h3 class="tagline">Student Developer</h3>
+                <h3 class="tagline">Student Developeneur</h3>
             </div><!--//profile-container-->
             <div class="education-container container-block">
                 <div class="item">
@@ -37,10 +37,16 @@
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                     <li class="linkedinN"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/vjvarunjain" target="_blank">LinkedIn</a></li>
-                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/varunj" target="_blank">Github.com/varunj</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/varunj" target="_blank">Github</a></li>
                     <li class="facebook"><i class="fa fa-facebook"></i><a href="https://facebook.com/VJVarunJain" target="_blank">Facebook</a></li>
                 </ul>
             </div><!--//contact-container-->
+            <div class="interests-container container-block"> <!--publications-->
+                <h2 class="container-block-title">Publications</h2>
+                <ul class="list-unstyled interests-list">
+                    <li><a href="http://varunj.github.io/airgestar">AirGestAR @ISMAR '17</a></li>
+                </ul>
+            </div><!--//publications-->
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
@@ -64,22 +70,39 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Founder/ Product Developer, AirZen</h3>
-                            <div class="time">Summer, 2015 - </div>
+                            <h3 class="job-title">Founder, Tech Lead</h3>
+                            <div class="time">Summer 2015 - Present</div>
                         </div><!--//upper-row-->
                         <div class="company">Airzen</div>
                     </div><!--//meta-->
                     <div class="details">
                         <p>Working as the founder and product developer of AirZen, which aims to measure pollution levels in and around people's home using a RaspberryPi with various sensors and give suitable health advice. Also, made an adroid app and a server implementation for the same.<p>
                         <p>
-                            Find us at <a href="http://airzen.io"> AirZen.io</a>
+                            Find us at <a href="http://airzen.io"> AirZen.io</a>. Coverage at <a href="http://inspiration.innovationjockeys.net/post/153102143512/your-personal-pollution-tracker"> Accenture Innovation Jockeys '16</a>, <a href="https://twitter.com/HackerEarth/status/744151358513680384?s=07"> NASSCOM TechNgage '16</a>.
                         </p>
                     </div><!--//details-->
                 </div><!--//item-->
+
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Innovation Internship, IIITD Delhi</h3>
+                            <h3 class="job-title">Research Intern</h3>
+                            <div class="time">Winter 2016, Summer 2017</div>
+                        </div><!--//upper-row-->
+                        <div class="company">TCS Research and Innovation Labs</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Working in the domain of Augmented Reality, exploring the possibility of leveraging deep learning for recognizing 3-dimensional markerless temporal hand gestures in real-time using monocular camera input of a smartphone. It includes estimating a 3D hand pose and running a classification network.<p>
+                        <p>
+                            Presented the <a href="http://varunj.github.io/airgestar"> work </a> at <a href="https://ismar2017.sciencesconf.org/"> ISMAR '17.</a>
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Innovation Internship</h3>
                             <div class="time">Summer, 2016</div>
                         </div><!--//upper-row-->
                         <div class="company">IIIT Delhi</div>
@@ -91,7 +114,7 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Research Intern, IIIT Delhi</h3>
+                            <h3 class="job-title">Research Intern</h3>
                             <div class="time">Summer, 2015</div>
                         </div><!--//upper-row-->
                         <div class="company">IIIT Delhi</div>
@@ -104,7 +127,7 @@
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Google Student Ambassador</h3>
-                            <div class="time">2014 - </div>
+                            <div class="time">2014 - Present</div>
                         </div><!--//upper-row-->
                         <div class="company">IIIT Delhi, IN</div>
                     </div><!--//meta-->
@@ -121,7 +144,7 @@
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">CommuteEasy</h3>
-                            <div class="time">2016 - </div>
+                            <div class="time">2016 - Present</div>
                         </div><!--//upper-row-->
                     </div><!--//meta-->
                     <div class="details">
@@ -134,7 +157,7 @@
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">AirZen</h3>
-                            <div class="time">2015 - </div>
+                            <div class="time">2015 - Present</div>
                         </div><!--//upper-row-->
                     </div><!--//meta-->
                     <div class="details">
@@ -312,7 +335,7 @@
                         </div><!--//level-bar-->                                 
                     </div><!--//item-->
                     <div class="item">
-                        <h3 class="level-title">HTML &amp; HTML & CSS</h3>
+                        <h3 class="level-title">HTML &amp; CSS</h3>
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="75%">
                             </div>                                      
@@ -362,9 +385,9 @@
     </div>
 
     <!-- Javascript -->          
-    <script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="general_bower_components/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="general_bower_components/bootstrap/dist/js/bootstrap.min.js"></script>    
     <!-- custom js -->
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="general_js/main.js"></script>
 </body>
 </html>
