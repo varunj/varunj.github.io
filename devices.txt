@@ -1,0 +1,12 @@
+Compute
+	Compaq Presario 5726	: Intel Pentium III 500 MHz, 96 MB, 19 GB
+	HP Pavilion a6740in		: Intel Core 2 Duo E7300 2.67 GHz, 4 GB, 320 GB, Nvidia Quadro FX3700
+	HP 240 G3				: Intel Core i5-4210U 2.70 GHz, 8 GB, 512 GB
+	ThinkPad X1 Carbon 4th	: Intel Core i5-6300U 3.00 GHz, 8 GB, 512 GB
+	Dell Latitude E5440		: Intel Core i7-4600U 3.30 GHz, 16 GB, 512 GB, Nvidia GT720M
+
+Cellular
+	Sony Ericsson Xperia X8
+	Sony Xperia M
+	OnePlus X
+	Google Pixel 2 XL
