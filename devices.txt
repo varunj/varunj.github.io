@@ -8,5 +8,5 @@ Compute
 Cellular
 	Sony Ericsson Xperia X8
 	Sony Xperia M
-	OnePlus X
-	Google Pixel 2 XL
+	OnePlus X 16 GB
+	OnePlus 6 256 GB

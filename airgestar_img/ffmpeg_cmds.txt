@@ -1,4 +1,0 @@
-ffmpeg -i "demo_video_0.avi"  -vf "drawtext=text='AirGestAR\: Leveraging Deep Learning for Complex Hand Gestural Interaction with Frugal AR Devices':x=0:y=H-th-10: fontfile=arial.ttf:fontsize=27:fontcolor=white" "demo_video_0_watermark.mp4"
-ffmpeg -i "demo_video_1.avi"  -vf "drawtext=text='AirGestAR\: Leveraging Deep Learning for Complex Hand Gestural Interaction with Frugal AR Devices':x=0:y=H-th-10: fontfile=arial.ttf:fontsize=27:fontcolor=white" "demo_video_1_watermark.mp4"
-ffmpeg -i "demo_video_2.avi"  -vf "drawtext=text='AirGestAR\: Leveraging Deep Learning for Complex Hand Gestural Interaction with Frugal AR Devices':x=0:y=H-th-10: fontfile=arial.ttf:fontsize=27:fontcolor=white" "demo_video_2_watermark.mp4"
-ffmpeg -i yolo1.wmv -i yolo2.wmv -filter_complex vstack yolo.mp4
