@@ -3,8 +3,8 @@ Compute
 	HP Pavilion a6740in	: Intel Core 2 Duo E7300 2.67 GHz, 4 GB, 320 GB, Nvidia Quadro FX3700
 	HP 240 G3		: Intel Core i5-4210U 2.70 GHz, 8 GB, 512 GB
 	ThinkPad X1 Carbon 4th	: Intel Core i5-6300U 3.00 GHz, 8 GB, 512 GB*[THNSN5512GPU7]
-	Dell Latitude E5440	: Intel Core i7-4600U 3.30 GHz, 16 GB, 512 GB, Nvidia GT720M
-	Alienware 15 R4		: Intel Core i9-8950HK 4.80 GHz, 32 GB, 1TB+1TB*[KXG50PNV1T02], Nvidia GTX 1080
+	Dell Latitude E5440*	: Intel Core i7-4600U 3.30 GHz, 16 GB, 512 GB, Nvidia GT720M
+	Alienware 15 R4*	: Intel Core i9-8950HK 4.80 GHz, 32 GB, 1TB+1TB*[KXG50PNV1T02], Nvidia GTX 1080
 	ThinkPad X390		: Intel Core i5-8265U 3.90 GHz, 8 GB, 256 GB*[KXG6AZNV256G]
 
 Cellular
