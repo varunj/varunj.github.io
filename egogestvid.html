@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>AirPen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#a90329">
+	<link rel="stylesheet" type="text/css" href="publications_stylesheets/normalize.css" media="screen">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="publications_stylesheets/stylesheet.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="publications_stylesheets/github-light.css" media="screen">
+	<link rel="shortcut icon" href="publications_res/airgestar_favicon.ico" />
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-101653083-3', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+</head>
+
+<body>
+	<section class="page-header">
+		<h1 class="project-name">EgoGestVid</h1>
+		<h2 class="project-tagline">Synthetic Video Generation Framework for Robust Hand Gesture Recognition in Augmented Reality Applications</h2>
+		<h2 class="project-authors">Varun Jain, Shivam Aggarwal, Suril Mehta, Ramya Hebbalaguppe</h2>
+		<a href="#video1" class="btn">Demo Video</a>
+	</section>
+
+	<section class="main-content">
+
+		<h3><a id="welcome-to-EgoGestVid" class="anchor" href="#welcome-to-EgoGestVid" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h3>
+		<p>Hand gestures are a natural means of interaction in Augmented Reality and Virtual Reality (AR/VR) applications. Recently, there has been an increased focus on removing the dependence of accurate hand gesture recognition on complex sensor setup found in expensive proprietary devices such as the Microsoft HoloLens, Daqri and Meta Glasses. Most such solutions either rely on multi-modal sensor data or deep neural networks that can benefit greatly from abundance of labelled data. Datasets are an integral part of any deep learning based research. They have been the principal reason for the substantial progress in this field, both, in terms of providing enough data for the training of these models, and, for benchmarking competing algorithms. However, it is becoming increasingly difficult to generate enough labelled data for complex tasks such as hand gesture recognition.</p>
+
+		<h3><a id="the-idea" class="anchor" href="#the-idea" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Idea</h3>
+		<p><img src="https://varunj.github.io/publications_res/egogestvid_framework.png" /><br /></p>
+		<p>In this work, we propose a neural network architecture that is capable of generating a sequence of video frames given an input mask layout. These masks passed in succession to the generator network results in a video sequence with given background image. We can even use different video frames as input (passed successively) for the background. This results in videos with both static and dynamic backgrounds.</p>
+
+		<h3><a id="framework" class="anchor" href="#framework" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Framework</h3>
+		<p><img src="https://varunj.github.io/publications_res/egogestvid_outline.png" /><br /></p>
+		<p>We used the ability of the model outlined by Turkogluet al. to generate video sequences with different backgrounds but same (or controlled) fingertip and hand as in the reference input image. The proposed framework sequentially composes a scene, breaking down the underlying problem into foreground and background separately. Our approach utilises the foreground generator as proposed by Turkoglu et al. to superimpose elements over the given background. Such a network allows us to control various properties, including fingertip location, as well as hand’s shape and appearance.</p>
+		
+		<h3><a id="results" class="anchor" href="#results" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Results</h3>
+		<ul>
+			<li>
+				<p><strong>Using CycleGAN</strong><br><br />
+				<p align="center"><br /> <img height="50%" width="100%" src="https://varunj.github.io/publications_res/egogestvid_fig_inputoutput-1.jpg"><br /></p>
+			</li>
+			<li>
+				<p><strong>Synthesised using our approach.</strong><br><br />
+				<p align="center"><br /> <img height="50%" width="50%" src="https://varunj.github.io/publications_res/egogestvid_domain_shift-1.jpg"><br /></p>
+				</p>
+			</li>
+		</ul>
+		<p><br>Clearly, images are more clearer and the segmentation masks give us control over the fingertip location, hand's appearance, shape, size and so on.</p>
+		
+
+		<h3><a id="gestures" class="anchor" href="#gestures" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gestures</h3>
+		<p>Our approach gives us the capability to generate a very large synthetic egocentric gesture pointing dataset. A few examples are shown below:</p>
+		<ul>
+			<li>
+				<p><strong>A circle pointing gesture</strong> <br><br />
+				<p align="center"><br /> <img height="50%" width="50%" src="https://varunj.github.io/publications_res/egogestvid_circle-1.jpg"><br /></p>
+				</p>
+			</li>
+			<li>
+				<p><strong>A square pointing gesture</strong> <br><br />
+				<p align="center"><br /> <img height="50%" width="50%" src="https://varunj.github.io/publications_res/egogestvid_square.png"><br /></p>
+				</p>
+			</li>
+		</ul>
+
+
+
+		<h3><a id="video1" class="anchor" href="#video1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo Video</h3>
+		<div class="video-responsive">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/into1YUMaWU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+		
+	</section>
+
+</body>
+</html>
