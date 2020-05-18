@@ -6,7 +6,7 @@ Compute
 	Dell Latitude E5440*	: Intel Core i7-4600U 3.30 GHz, 16 GB, 512 GB, Nvidia GT720M
 	Alienware 15 R4*	: Intel Core i9-8950HK 4.80 GHz, 32 GB, 1TB+1TB*[KXG50PNV1T02], Nvidia GTX 1080
 	ThinkPad X390		: Intel Core i5-8265U 3.90 GHz, 8 GB, 256 GB*[KXG6AZNV256G]
-	MSI GS65 Stealth 9SF*	: Intel Core i7-9750H 4.50 GHz, 32 GB, 512 GB*[WDCPCSN730SDBQNTY], Nvidia RTX 2070
+	MSI GS65 Stealth 9SF*	: Intel Core i7-9750H 4.50 GHz, 32 GB, 512 GB*[WDCPCSN730SDBPNTY], Nvidia RTX 2070
 
 Cellular
 	Sony Ericsson Xperia X8
