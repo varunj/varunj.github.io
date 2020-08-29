@@ -180,11 +180,11 @@
                         <div class="company">Facebook Reality Labs</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>
-				Developed a Variational Auto-Encoder to predict texture and geometry from IR images and experimented with input-level augmentation techniques such as adding UV maps to make the model robust to variations in identities, appearances, and lighting. This resulted in an overall improvement of 6% over the ongoing methods.
+			<p>
+				Blind augmentation and normalization in the input domain does not help significantly in making the face encoders robust to real-world variations such as identities, appearances, lighting and headset assembly. Hence, we use analysis-by-synthesis to exploit the information available during test time: the target image (with lighting/appearance information).
                         </p>
 			<p>
-				Explored metric learning to learn a generic feature space which can be used to refine predictions during run-time.
+				Explored metric learning to learn a generic feature space which can be used to refine predictions during run-time. This is done through fully convolutional networks (so that the pixels are aligned), and comparison in this feature space minimizes the distance between current predictions and the reference results.
                         </p>
                     </div><!--//details-->
                 </div><!--//item-->
@@ -200,6 +200,9 @@
                     <div class="details">
                         <p>
 				Working on High-Fidelity Bidirectional Telepresence communication in VR using Photo-realistic avatars. This involves solving problems such as 3D avatar animation generation via self-supervised multi-view image translation using a limited amount of IR sensors.
+                        </p>
+			<p>
+				Developed a Variational Auto-Encoder to predict texture and geometry from IR images and experimented with input-level augmentation techniques such as adding UV maps to make the model robust to variations in identities, appearances, and lighting. This resulted in an overall improvement of 6% over the ongoing methods.
                         </p>
                     </div><!--//details-->
                 </div><!--//item-->
