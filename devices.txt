@@ -7,6 +7,7 @@ Compute
 	Alienware 15 R4*	: Intel Core i9-8950HK 4.80 GHz, 32 GB, 1TB+1TB*[KXG50PNV1T02], Nvidia GTX 1080
 	ThinkPad X390		: Intel Core i5-8265U 3.90 GHz, 8 GB, 256 GB*[KXG6AZNV256G]
 	MSI GS65 Stealth 9SF*	: Intel Core i7-9750H 4.50 GHz, 32 GB, 512 GB*[WDCPCSN730SDBPNTY], Nvidia RTX 2070
+	Surface Book 3 15*	: Intel Core i7-1065G7 3.90 GHz, 32 GB, 1 TB*[KXG60ZNV1T02], Nvidia Quadro RTX 3000
 
 Cellular
 	Sony Ericsson Xperia X8
