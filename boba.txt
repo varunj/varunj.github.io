@@ -1,13 +1,13 @@
 Pittsburgh, PA
 	Tsaocaa, Squirrel Hill
-  Kung Fu Tea, Squirrel Hill
-  Fuku Tea, North Oakland
-  Chatime, Ross Park
+	Kung Fu Tea, Squirrel Hill
+	Fuku Tea, North Oakland
+	Chatime, Ross Park
 
 Seattle, WA
 	Sharetea, Bellevue
-  CoCo Fresh Tea & Juice, Bellevue
-  TRA Tea & Juice Bar, Bellevue
-  Rabbit Rabbit Tea, Seattle
-  Yifang Taiwan Fruit Tea, Bellevue
-  Meetea Cafe, Redmond
+	CoCo Fresh Tea & Juice, Bellevue
+	TRA Tea & Juice Bar, Bellevue
+	Rabbit Rabbit Tea, Seattle
+	Yifang Taiwan Fruit Tea, Bellevue
+	Meetea Cafe, Redmond
