@@ -12,15 +12,16 @@ Compute
 	Mac Studio M1 Ultra*	: M1 Ultra, 128 GB, 1 TB
 	ThinkPad T14s Gen 3*	: AMD Ryzen 7 PRO 6850U, 32 GB, 1 TB
 	Microsoft Surface Pro 9*: Intel Core i5-1245U, 16 GB, 1 TB
-	Asus Zenbook S 16*		: AMD Ryzen AI 9 HX 370, 32 GB, 1 TB
+	Asus Zenbook S 16*	: AMD Ryzen AI 9 HX 370, 32 GB, 1 TB
 
 Cellular
 	Sony Ericsson Xperia X8
 	Sony Xperia M
 	OnePlus X 16 GB
-	OnePlus 6 256 GB
+	OnePlus 6* 256 GB
 	OnePlus 6T 128 GB
-	Samsung Galaxy S10 5G 256 GB
+	Samsung Galaxy S10 5G* 256 GB
 	OnePlus 9 128 GB
 	Google Pixel 7 128 GB
+
 
