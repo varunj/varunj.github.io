@@ -9,6 +9,10 @@ Compute
 	MSI GS65 Stealth 9SF*	: Intel Core i7-9750H 4.50 GHz, 32 GB, 512 GB*[WDCPCSN730SDBPNTY], Nvidia RTX 2070
 	Surface Book 3 15*	: Intel Core i7-1065G7 3.90 GHz, 32 GB, 1 TB*[KXG60ZNV1T02], Nvidia Quadro RTX 3000
 	CyberPowerPC Custom* 	: AMD Ryzen 9 5900X 4.80 GHz, 64 GB, 1 TB*[WDS100T2B0C]+1 TB*[WDS100T2B0C], Nvidia RTX 3060 + Nvidia RTX 2080 Ti
+	Mac Studio M1 Ultra*	: M1 Ultra, 128 GB, 1 TB
+	ThinkPad T14s Gen 3*	: AMD Ryzen 7 PRO 6850U, 32 GB, 1 TB
+	Microsoft Surface Pro 9*: Intel Core i5-1245U, 16 GB, 1 TB
+	Asus Zenbook S 16*		: AMD Ryzen AI 9 HX 370, 32 GB, 1 TB
 
 Cellular
 	Sony Ericsson Xperia X8
@@ -19,3 +23,4 @@ Cellular
 	Samsung Galaxy S10 5G 256 GB
 	OnePlus 9 128 GB
 	Google Pixel 7 128 GB
+
