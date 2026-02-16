@@ -1,18 +1,28 @@
 Compute
+	---------------------------
 	Compaq Presario 5726	: Intel Pentium III 500 MHz, 96 MB, 19 GB
 	HP Pavilion a6740in	: Intel Core 2 Duo E7300 2.67 GHz, 4 GB, 320 GB, Nvidia Quadro FX3700
 	HP 240 G3		: Intel Core i5-4210U 2.70 GHz, 8 GB, 512 GB
 	ThinkPad X1 Carbon 4th	: Intel Core i5-6300U 3.00 GHz, 8 GB, 512 GB*[THNSN5512GPU7]
-	Dell Latitude E5440*	: Intel Core i7-4600U 3.30 GHz, 16 GB, 512 GB, Nvidia GT720M
-	Alienware 15 R4*	: Intel Core i9-8950HK 4.80 GHz, 32 GB, 1TB+1TB*[KXG50PNV1T02], Nvidia GTX 1080
 	ThinkPad X390		: Intel Core i5-8265U 3.90 GHz, 8 GB, 256 GB*[KXG6AZNV256G]
-	MSI GS65 Stealth 9SF*	: Intel Core i7-9750H 4.50 GHz, 32 GB, 512 GB*[WDCPCSN730SDBPNTY], Nvidia RTX 2070
-	Surface Book 3 15*	: Intel Core i7-1065G7 3.90 GHz, 32 GB, 1 TB*[KXG60ZNV1T02], Nvidia Quadro RTX 3000
-	CyberPowerPC Custom* 	: AMD Ryzen 9 5900X 4.80 GHz, 64 GB, 1 TB*[WDS100T2B0C]+1 TB*[WDS100T2B0C], Nvidia RTX 3060 + Nvidia RTX 2080 Ti
-	Mac Studio M1 Ultra*	: M1 Ultra, 128 GB, 1 TB
-	ThinkPad T14s Gen 3*	: AMD Ryzen 7 PRO 6850U, 32 GB, 1 TB
-	Microsoft Surface Pro 9*: Intel Core i5-1245U, 16 GB, 1 TB
-	Asus Zenbook S 16*	: AMD Ryzen AI 9 HX 370, 32 GB, 1 TB
+	---------------------------
+	Dell Latitude E5440	: Intel Core i7-4600U 3.30 GHz, 16 GB, 512 GB, Nvidia GT720M
+	Alienware 15 R4	: Intel Core i9-8950HK 4.80 GHz, 32 GB, 1TB+1TB*[KXG50PNV1T02], Nvidia GTX 1080
+	*********
+	MSI GS65 Stealth 9SF	: Intel Core i7-9750H 4.50 GHz, 32 GB, 512 GB*[WDCPCSN730SDBPNTY], Nvidia RTX 2070
+	*********
+	CyberPowerPC Custom 	: AMD Ryzen 9 5900X 4.80 GHz, 64 GB, 1 TB*[WDS100T2B0C]+1 TB*[WDS100T2B0C], Nvidia RTX 3060 + Nvidia RTX 2080 Ti
+	Mac Studio M1 Ultra	: M1 Ultra, 128 GB, 1 TB
+	***
+	Surface Book 3 15	: Intel Core i7-1065G7, 32 GB, 1 TB, Nvidia Quadro RTX 3000
+	ThinkPad T14s Gen 3	: AMD Ryzen 7 PRO 6850U, 32 GB, 1 TB
+	Microsoft Surface Pro 9: Intel Core i5-1235U, 8 GB, 256 GB
+	Asus Zenbook S 16	: AMD Ryzen AI 9 HX 370, 32 GB, 1 TB
+	***
+	Microsoft Surface Pro 9 Proto: Intel Core i7-1265U, 32 GB, 1 TB
+	Microsoft Surface Laptop Go 3 Proto: Intel Core i5-1235U, 8 GB, 256 GB
+	Microsoft Surface Laptop 8th Gen Proto: Intel Core Ultra 5 325, 16 GB, 512 GB
+	HP OmniBook 5 14 Proto: AMD Ryzen AI 7 445, 16 GB, 512 GB
 
 Cellular
 	Sony Ericsson Xperia X8
@@ -23,5 +33,3 @@ Cellular
 	Samsung Galaxy S10 5G* 256 GB
 	OnePlus 9 128 GB
 	Google Pixel 7 128 GB
-
-
