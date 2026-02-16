@@ -7,7 +7,7 @@ Compute
 	ThinkPad X390		: Intel Core i5-8265U 3.90 GHz, 8 GB, 256 GB*[KXG6AZNV256G]
 	---------------------------
 	Dell Latitude E5440	: Intel Core i7-4600U 3.30 GHz, 16 GB, 512 GB, Nvidia GT720M
-	Alienware 15 R4	: Intel Core i9-8950HK 4.80 GHz, 32 GB, 1TB+1TB*[KXG50PNV1T02], Nvidia GTX 1080
+	Alienware 15 R4		: Intel Core i9-8950HK 4.80 GHz, 32 GB, 1TB+1TB*[KXG50PNV1T02], Nvidia GTX 1080
 	*********
 	MSI GS65 Stealth 9SF	: Intel Core i7-9750H 4.50 GHz, 32 GB, 512 GB*[WDCPCSN730SDBPNTY], Nvidia RTX 2070
 	*********
@@ -19,10 +19,10 @@ Compute
 	Microsoft Surface Pro 9	: Intel Core i5-1235U, 8 GB, 256 GB
 	Asus Zenbook S 16	: AMD Ryzen AI 9 HX 370, 32 GB, 1 TB
 	***
-	Microsoft Surface Pro 9 Proto			: Intel Core i7-1265U, 32 GB, 1 TB
-	Microsoft Surface Laptop Go 3 Proto		: Intel Core i5-1235U, 8 GB, 256 GB
+	Microsoft Surface Pro 9 Proto	: Intel Core i7-1265U, 32 GB, 1 TB
+	Microsoft Surface Laptop Go 3 Proto	: Intel Core i5-1235U, 8 GB, 256 GB
 	Microsoft Surface Laptop 8th Gen Proto	: Intel Core Ultra 5 325, 16 GB, 512 GB
-	HP OmniBook 5 14 Proto					: AMD Ryzen AI 7 445, 16 GB, 512 GB
+	HP OmniBook 5 14 Proto	: AMD Ryzen AI 7 445, 16 GB, 512 GB
 
 Cellular
 	Sony Ericsson Xperia X8
@@ -33,4 +33,5 @@ Cellular
 	Samsung Galaxy S10 5G* 256 GB
 	OnePlus 9 128 GB
 	Google Pixel 7 128 GB
+
 
