@@ -22,8 +22,8 @@ Compute
 	***
 	Microsoft Surface Pro 9 Proto		: Intel Core i7-1265U, 32 GB, 1 TB
 	Microsoft Surface Laptop Go 3 Proto	: Intel Core i5-1235U, 8 GB, 256 GB
-	Microsoft Surface Laptop 8th Gen Proto : Intel Core Ultra 5 325, 16 GB, 512 GB
-	Microsoft Surface Laptop 8th Gen Proto : Intel Core Ultra 5 325, 16 GB, 512 GB
+	Microsoft Surface Laptop 8th Gen Proto  : Intel Core Ultra 5 325, 16 GB, 512 GB
+	Microsoft Surface Laptop 8th Gen Proto  : Intel Core Ultra 5 325, 16 GB, 512 GB
 	HP OmniBook 5 14 Proto			: AMD Ryzen AI 7 445, 16 GB, 512 GB
 
 Cellular
